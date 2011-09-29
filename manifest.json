@@ -1,14 +1,13 @@
 {
-  "name": "Unburner",
-  "version": "0.3",
-  "icons": { "128": "icon.png" },
+  "name": "Unanalyticator",
+  "version": "0.4",
   "description": "Strip Google Analytics tracker codes.",
   "content_scripts": [
     {
       "matches": [
         "http://*/*"
        ],
-      "js": ["unburner.js"],
+      "js": ["unanalyticator.js"],
       "run_at": "document_start"
     }
   ],
