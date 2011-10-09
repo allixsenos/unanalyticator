@@ -1,6 +1,6 @@
 {
   "name": "Unanalyticator",
-  "version": "0.4.1",
+  "version": "0.5",
   "icons": { "128": "icon.png" },
   "description": "Strip Google Analytics tracker codes.",
   "content_scripts": [
